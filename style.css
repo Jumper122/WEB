@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
+
+body {
+    color: #FFF;
+    font: 16px/28px "Be Vietnam Pro";
+    background-color: #000;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font: inherit;
+    cursor
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title-section {
+    font-size: 52px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.btn-primary{
+    padding: 15px; 10px; /* up down left right */
+    background-color: #EE8313
+
+}
+
+
+/* HEADER */
+#header-section {
+    padding: 40px 0 107px; /* up (rl) down */
+}
+
+.header {
+    display: flex;              /* витягнути header */
+    justify-content: space-between; /* space-between (H_C_B_TС and MB) */
+    font-weight: 600;
+}
+
+.nav-main {
+    margin-center: auto;
+}
+
+.nav-main__list {
+    display: flex;
+    gap: 48px;
+}
+
+.nav-main__link:hover { /* при натискані */
+    color: #EE8313;
+}
+
+/* BANNER */
+
+#banner-section {
+    position: relative /* розташовування відносно їхнього звичайного положення */
+    padding-bottom: 60px;
+}
+
+.banner {
+    max-width: 475px;
+}
+
+.banner__header {
+    font-size: 52px
+}
+
+.banner-links-wrap {
+    display: flex;
+    align-items: center; /* Вирівнювання по центру*/
+    gap: 35px;
+    margin-bottom: 30px;
+}
+
+.banner__btn {
+    border: 1px solid #EE8313; /* Рамка */
+    color: #EE8313;
+    padding: 12px 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.banner-features__text {
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.banner-features__text_strong {
+    margin-right: 16px;
+    margin-left: 10px;
+    font-weight: 650;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.banner-img {
+    position: absolute;
+    width: 58%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    margin-top: 80px;
+    background: url(img/baner-main.png) no-repeat;
+}
+
+/* RENT */
+#rent-section {
+    padding: 120px 0 120px;
+}
+
+.rent-wrap {
+    display: grid;  /* Таблиця */
+    grid-template-columns: 1fr 1fr; /* два стовпці з рівною шириною 1fr  */
+    gap: 32px;
+}
+
+.rent {
+    position: relative;
+    height: 500px;
+    font-weight: 600;
+    background: url(img/rent.jpg) no-repeat;
+    background-position: 50%; /* по горизонталі по середині елемента */
+    background-size: cover; /* буде масштабуватись, щоб повністю заповнити елемент */
+}
+
+.rent:nth-child(2) {
+    background-image: url(img/rent_2.jpg);
+}
+.rent:nth-child(3) {
+    background-image: url(img/rent_3.jpg);
+}
+.rent:nth-child(4) {
+    background-image: url(img/rent_4.jpg);
+}
+
+.rent__name {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    font-size: 35px;
+}
+
+/* DESTINATION */
+#destination-section {
+    padding: 150px;
+}
+
+.destination-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 стовпці з рівною шириною 1fr  */
+    gap: 25px;
+}
+
+.destination {
+    background-color: #171717;
+}
+
+.destination-info {
+    padding: 24px;
+}
+
+.destination__title {
+    font-size: 24px;
+}
+
+.destination__link {
+    color: #EE8313;
+}
+.destination__link:hover {
+    color: #EF5E10;
+}
+
+/* LOCATION */
+.location-img {
+}
+
+/* FORM */
+
+.contact-form {
+    padding: 40px 0 107px; /* up (rl) down */
+    margin-center: auto;
+}

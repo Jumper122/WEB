@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
+/* FORM */
+body {
+    background-color: black;
+    color: white;
+    font: 16px/28px "Be Vietnam Pro";
+}
+
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px; /* Заокруглення */
+    color: white;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    height: 100px;
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #EE8313;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #ffa726;
+}
